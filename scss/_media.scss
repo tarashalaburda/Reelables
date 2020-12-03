@@ -1,0 +1,44 @@
+@media (max-width: 1650px) {
+  .header__img {
+    width: 0;
+  }
+}
+
+@media (max-width: 1540px) {
+  .smart {
+    background-image: none;
+    background: linear-gradient(281.7deg, #302c34 11.23%, #59555d 42.92%, #4a474f 52.23%, #232224 94.08%);
+  }
+}
+@media (max-width: 1440px) {
+  .buy {
+    background-image: none;
+    background: linear-gradient(281.7deg, #302c34 11.23%, #59555d 42.92%, #4a474f 52.23%, #232224 94.08%);
+  }
+}
+
+@media (max-width: 1225px) {
+  .contact__form-circle {
+    width: 0;
+  }
+}
+
+@media (max-width: 1199px) {
+  .workflow__box-maps {
+    display: none;
+  }
+}
+@media (max-width: 1177px) {
+  .smart__img {
+    width: 0;
+  }
+  .buy__box-img {
+    width: 0;
+  }
+}
+
+@media (min-width: 991px) {
+  //   .workflow__box-maps {
+  //     display: none;
+  //   }
+}
