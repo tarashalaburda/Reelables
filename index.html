@@ -4,7 +4,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>git</title>
+	<title>Reelables</title>
 	<!-- Fonts -->
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Poppins:wght@400;500&display=swap"
@@ -17,55 +17,40 @@
 
 <body>
 	<header class="header">
-		<div class="header__bg">
-			<div class="header__img">
-			</div>
-		</div>
-
 		<div class="container">
-
-			<div class="row">
-				<div class="col col-lg-2 col-xl-2 p-0 ">
-					<a href="#"><img src="images/logo.svg" alt="reelables-logo"></a>
-				</div>
-
-				<div class="col col-xl-8 p-0 ml-auto align-self-center">
-
-					<nav class="navbar navbar-light  navbar-expand-lg  justify-content-end">
-						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-							aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-							<span class="navbar-toggler-icon"></span>
+			<nav class="navbar fixed-top navbar-expand-lg navbar-light navbar-padding bg-light-my">
+				<a class="navbar-brand" href="#"><img src="images/logo.svg" alt="Logo"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+					aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse justify-content-end " id="navbarNav">
+					<ul class="menu navbar-nav ">
+						<li class="menu__item nav-item"><a href="#">Features</a></li>
+						<li class="menu__item nav-item"><a href="#">Templates</a></li>
+						<li class="menu__item nav-item"><a href="#">Demo</a></li>
+						<li class="menu__item nav-item"><a href="#">Pricing</a></li>
+						<li class="menu__item nav-item"><a href="#">Integrations</a></li>
+						<li class="menu__item nav-item"><a href="#">Contact
+								us</a></li>
+						<button class="menu__item-btn" type="submit">Try it
+							<span class="menu__item-icon">
+								<img src="images/arrow-right.svg" alt="arrow-right">
+							</span>
 						</button>
-
-						<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-
-							<ul class="menu navbar-nav d-flex align-items-center justify-content-end">
-								<li class="menu__item nav-item"><a href="#">Features</a></li>
-								<li class="menu__item nav-item"><a href="#">Templates</a></li>
-								<li class="menu__item nav-item"><a href="#">Demo</a></li>
-								<li class="menu__item nav-item"><a href="#">Pricing</a></li>
-								<li class="menu__item nav-item"><a href="#">Integrations</a></li>
-								<li class="menu__item nav-item"><a href="#">Contact
-										us</a></li>
-								<button class="menu__item-btn" type="submit">Try it<span class="menu__item-icon"><img
-											src="images/arrow-right.svg" alt="arrow-right"></span></button>
-							</ul>
-
-						</div>
-
-					</nav>
+					</ul>
 				</div>
-			</div>
-
+			</nav>
 		</div>
-
+		</div>
 		<div class="header__content">
 			<div class="container">
 				<div class="row">
 					<div class="col col-xl-8">
 						<h1 class="header__title">
 							<span class="header__title-bg">Smart business processes</span>
-							for automating supply chains and inventory management
+							for automating supply chains
+							and inventory management
 						</h1>
 						<p class="header__text">Create custom, asset tracking workflows with <br>
 							Bluetooth-enabled smart labels that optimize how your <br>
@@ -190,7 +175,7 @@
 				</div>
 			</div>
 			<div class="row ">
-				<div class="col col-xl-4 offset-xl-1 ">
+				<div class="col-12 col-xl-4 offset-xl-1 ">
 
 					<div class="workflow__box-img">
 						<img src="images/box-ok.png" alt="box">
@@ -210,7 +195,7 @@
 
 			</div>
 			<div class="row">
-				<div class="col col-xl-6 offset-xl-1 align-self-center">
+				<div class="col-12 col-lg-6 col-xl-6 offset-xl-1 align-self-center">
 					<div class="workflow__inner">
 						<p class="workflow__text">Drive ultra efficient Just-in-Time processes with triggers fired the
 							moment labelled assets arrive or change custody. Reelables’ labels enable events when moved
@@ -229,7 +214,7 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col col-sm-1 col-md-1 col-xl-5 offset-xl-1">
+				<div class="col d-none d-sm-none d-lg-block col-xl-5 offset-xl-1">
 					<div class="workflow__box-maps">
 						<div class="workflow__phone">
 							<img class="workflow__map-item" src="images/phone.png" alt="map">
@@ -267,7 +252,6 @@
 			</div>
 		</div>
 		</div>
-
 	</section>
 
 	<section class="smart">
@@ -290,12 +274,12 @@
 		<div class="container">
 			<div class="works__title">How it works</div>
 			<div class="row">
-				<div class="col col-xl-5">
+				<div class="col-12 col-md-6 col-xl-5">
 					<div class="works__block">
 						<div class="works__circle"></div>
 					</div>
 				</div>
-				<div class="col col-xl-7">
+				<div class="col col-md-6 col-xl-7">
 					<div class="works__inner">
 						<div class="works__text">Provisioning takes place at the point of manufacture or distribution
 							when inventory is ordinarily barcoded.
@@ -372,44 +356,39 @@
 								<label for="exampleFormControlTextarea1">What problem are you trying to solve *</label>
 								<textarea class="form-control" id="exampleFormControlTextarea1"></textarea>
 							</div>
-							<button class="contact__btn">try it
-								<span class="contact__btn-span">
-									<img src="images/arrow-blue.svg" alt="">
-								</span>
-							</button>
-							<div class="contact__tip">If you’d prefer, email us at <br> team@reelables.com</div>
+
+							<div class="contact__wrapp">
+								<button class="contact__btn">try it
+									<span class="contact__btn-span">
+										<img src="images/arrow-blue.svg" alt="">
+									</span>
+								</button>
+								<div class="contact__tip">If you’d prefer, email us at <br> team@reelables.com</div>
+							</div>
 						</form>
 						<div class="contact__form-box">
 							<div class="contact__form-circle"></div>
 						</div>
 					</div>
-
 				</div>
 			</div>
-
 		</div>
-
 	</section>
 
 	<section class="footer">
 		<div class="container">
 			<div class="row">
-				<div class="col col-lg-2 col-xl-2 p-0">
+				<div class="col col-lg-2 col-xl-2 ">
 					<a href="#"><img src="images/logo-white.svg" alt="reelables-logo"></a>
 				</div>
-
-				<div class="col col-xl-8 p-0 ml-auto align-self-center">
-
+				<div class="col col-xl-8 ml-auto align-self-center">
 					<nav class="navbar navbar-expand-lg navbar-light justify-content-end">
-
-						<button class="navbar-toggler" type="button" data-toggle="collapse"
+						<button class="navbar-toggler navbar-toggler-color  " type="button" data-toggle="collapse"
 							data-target="#navbarNavFooter" aria-controls="navbarNavFooter" aria-expanded="false"
 							aria-label="Toggle navigation">
 							<span class="navbar-toggler-icon"></span>
 						</button>
-
 						<div class="collapse navbar-collapse justify-content-end" id="navbarNavFooter">
-
 							<ul class="menu navbar-nav d-flex align-items-center justify-content-end">
 								<li class="menu__item nav-item"><a href="#">Features</a></li>
 								<li class="menu__item nav-item"><a href="#">Templates</a></li>
@@ -435,18 +414,10 @@
 					<address class="footer__address">
 						© Reelables, Inc., 2020 <br> 814 Mission St. 6th Fl., San Francisco, CA. 94103
 					</address>
-
 				</div>
 			</div>
 		</div>
 	</section>
-
-
-
-
-
-
-
 
 
 

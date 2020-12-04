@@ -13,7 +13,6 @@ body {
   margin: 0 auto !important;
   font-family: "Poppins", sans-serif !important;
 }
-///////////////////
 .test {
   padding: 0;
 }
@@ -43,7 +42,22 @@ a {
   border-radius: 100%;
   background: linear-gradient(270deg, rgba(85, 202, 232, 0.07) 4.6%, rgba(196, 196, 196, 0) 93.97%);
 }
+.no-padding {
+  padding-right: 0;
+  padding-left: 0;
+}
 
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  // max-width: 1140px;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+/* MAINE */
 .header {
   padding-top: 40px;
   background: linear-gradient(107.89deg, #e1dddb 0%, #f2f1ed 21.28%, #fdfcf9 65.53%, #e6e0dd 100.12%);
@@ -51,6 +65,8 @@ a {
 .menu {
   &__item {
     margin-right: 37px;
+    margin-top: 5px;
+
     a {
       font-weight: 500;
       font-size: 15px;
@@ -78,7 +94,20 @@ a {
 }
 .navbar {
   padding: 0;
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  // padding-top: 30px;
+  padding-bottom: 15px;
 }
+.navbar-padding {
+  padding-top: 30px;
+}
+.bg-light-my {
+  // background-color: linear-gradient(107.89deg, #e1dddb 0%, #f2f1ed 21.28%, #fdfcf9 65.53%, #e6e0dd 100.12%) !important;
+  background-color: #f4f1ee !important;
+}
+
 .header__content {
   padding-top: 93px;
   padding-bottom: 134px;
@@ -139,8 +168,6 @@ a {
     padding-left: 28px;
   }
 }
-
-// під питанням
 
 .header__bg {
   position: relative;
@@ -331,8 +358,7 @@ a {
   height: 235px;
   border-radius: 4px;
   background-image: url(../images/black-three.png);
-  &__inner {
-  }
+
   &__title {
     font-family: Oswald;
     font-weight: bold;
@@ -492,6 +518,13 @@ a {
       left: -70px;
     }
   }
+  &__wrapp {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 28px;
+  }
   &__btn {
     width: 190px;
     height: 68px;
@@ -505,12 +538,10 @@ a {
     letter-spacing: 0.01em;
     text-transform: uppercase;
     color: #f6f5f1;
-    margin-top: 30px;
+    // margin-top: 30px;
     display: inline-block;
   }
-  &__btn-span {
-    padding-left: 38px;
-  }
+
   &__tip {
     font-weight: normal;
     font-size: 15px;
@@ -518,7 +549,6 @@ a {
     letter-spacing: 0.01em;
     color: #4ac9f3;
     display: inline-block;
-    margin-left: 146px;
   }
 }
 
@@ -545,7 +575,7 @@ textarea.form-control {
 }
 
 .footer {
-  height: 215px;
+  min-height: 215px;
   background: #514e55;
   padding-top: 47px;
   .menu {
@@ -569,6 +599,9 @@ textarea.form-control {
     line-height: 22px;
     letter-spacing: 0.01em;
     color: #757378;
+  }
+  .navbar-toggler-color {
+    background-color: #9acff0;
   }
 }
 
