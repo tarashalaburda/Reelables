@@ -66,6 +66,7 @@ a:hover {
   margin: 0 auto;
 }
 
+/* MAINE */
 .header {
   padding-top: 40px;
   background: -o-linear-gradient(342.11deg, #e1dddb 0%, #f2f1ed 21.28%, #fdfcf9 65.53%, #e6e0dd 100.12%);
@@ -198,7 +199,7 @@ a:hover {
   width: 1055px;
   height: 791px;
   right: 0;
-  top: -38px;
+  top: -40px;
 }
 
 .header__info {
