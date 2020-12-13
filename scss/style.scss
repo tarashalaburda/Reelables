@@ -13,9 +13,7 @@ body {
   margin: 0 auto !important;
   font-family: "Poppins", sans-serif !important;
 }
-.test {
-  padding: 0;
-}
+
 ul,
 li,
 button {
@@ -33,6 +31,7 @@ a {
     color: black;
   }
 }
+
 .circle {
   position: absolute;
   width: 315px;
@@ -47,19 +46,9 @@ a {
   padding-left: 0;
 }
 
-.fixed-top {
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 1030;
-  // max-width: 1140px;
-  max-width: 1920px;
-  margin: 0 auto;
-}
 /* MAINE */
+
 .header {
-  padding-top: 40px;
   background: linear-gradient(107.89deg, #e1dddb 0%, #f2f1ed 21.28%, #fdfcf9 65.53%, #e6e0dd 100.12%);
 }
 .menu {
@@ -94,23 +83,22 @@ a {
 }
 .navbar {
   padding: 0;
-  max-width: 1140px;
+  max-width: 1920px;
   width: 100%;
   margin: 0 auto;
-  // padding-top: 30px;
   padding-bottom: 15px;
 }
 .navbar-padding {
-  padding-top: 30px;
+  padding-top: 29px;
 }
 .bg-light-my {
-  // background-color: linear-gradient(107.89deg, #e1dddb 0%, #f2f1ed 21.28%, #fdfcf9 65.53%, #e6e0dd 100.12%) !important;
-  background-color: #f4f1ee !important;
+  background: linear-gradient(107.89deg, #e1dddb 0%, #f2f1ed 21.28%, #fdfcf9 65.53%, #e6e0dd 100%);
 }
 
 .header__content {
   padding-top: 93px;
   padding-bottom: 134px;
+  margin-top: 73px;
   .header__title {
     font-family: Oswald;
     font-weight: bold;
@@ -177,8 +165,8 @@ a {
   background: url(../images/s.png) no-repeat;
   width: 1055px;
   height: 791px;
-  right: 0;
-  top: -40px;
+  right: 112px;
+  top: -73px;
 }
 
 .header__info {
@@ -538,7 +526,6 @@ a {
     letter-spacing: 0.01em;
     text-transform: uppercase;
     color: #f6f5f1;
-    // margin-top: 30px;
     display: inline-block;
   }
 

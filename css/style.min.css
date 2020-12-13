@@ -16,10 +16,6 @@ body {
   font-family: "Poppins", sans-serif !important;
 }
 
-.test {
-  padding: 0;
-}
-
 ul,
 li,
 button {
@@ -56,19 +52,8 @@ a:hover {
   padding-left: 0;
 }
 
-.fixed-top {
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 1030;
-  max-width: 1920px;
-  margin: 0 auto;
-}
-
 /* MAINE */
 .header {
-  padding-top: 40px;
   background: -o-linear-gradient(342.11deg, #e1dddb 0%, #f2f1ed 21.28%, #fdfcf9 65.53%, #e6e0dd 100.12%);
   background: linear-gradient(107.89deg, #e1dddb 0%, #f2f1ed 21.28%, #fdfcf9 65.53%, #e6e0dd 100.12%);
 }
@@ -106,23 +91,25 @@ a:hover {
 
 .navbar {
   padding: 0;
-  max-width: 1140px;
+  max-width: 1920px;
   width: 100%;
   margin: 0 auto;
   padding-bottom: 15px;
 }
 
 .navbar-padding {
-  padding-top: 30px;
+  padding-top: 29px;
 }
 
 .bg-light-my {
-  background-color: #f4f1ee !important;
+  background: -o-linear-gradient(342.11deg, #e1dddb 0%, #f2f1ed 21.28%, #fdfcf9 65.53%, #e6e0dd 100%);
+  background: linear-gradient(107.89deg, #e1dddb 0%, #f2f1ed 21.28%, #fdfcf9 65.53%, #e6e0dd 100%);
 }
 
 .header__content {
   padding-top: 93px;
   padding-bottom: 134px;
+  margin-top: 73px;
 }
 
 .header__content .header__title {
@@ -198,8 +185,8 @@ a:hover {
   background: url(../images/s.png) no-repeat;
   width: 1055px;
   height: 791px;
-  right: 0;
-  top: -40px;
+  right: 112px;
+  top: -73px;
 }
 
 .header__info {
@@ -714,7 +701,7 @@ textarea.form-control {
   background-color: #9acff0;
 }
 
-@media (max-width: 1650px) {
+@media (max-width: 1830px) {
   .header__img {
     width: 0;
   }
